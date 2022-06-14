@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="https://kit.fontawesome.com/5a44f94317.js" crossorigin="anonymous"></script> 
+
+
+
+<style>
+
+div {
+    position: absolute;
+    display: inline-block;
+  
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 8px;
+}
+
+input[type="checkbox"] {
+    position: relative;
+    width: 110px;
+    height: 40px;
+    -webkit-appearance: none;
+    background-color: black;
+    border-radius: 20px;
+   
+   
+  
+}
+input[type="checkbox"]::before {
+    content: '';
+    position: relative;
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+    top: 2px;
+    left: 2px;
+    border-radius: 50%;
+    background-color: white;
+    
+}
+input[type="checkbox"]:checked::before {
+   left: 70px;
+   background-color: black;
+   
+}
+input[type="checkbox"]:checked {
+    background-color:white;
+ 
+    box-shadow: 0px 0px 0px 1200px black;
+}
+
+</style>
+
+    <title>DARK-MODE</title>
+</head>
+<body>
+    <div class="theme">
+
+        <input type="checkbox" name="" id="">
+        
+        
+
+    </div>
+</body>
+</html>
